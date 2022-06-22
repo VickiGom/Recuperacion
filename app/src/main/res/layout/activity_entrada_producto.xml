@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntradaProductoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/prod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Producto: "
+            android:textSize="30dp"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/ventaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/compraaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"></TextView>
+        <TextView
+            android:id="@+id/ganancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"></TextView>
+        <Button
+            android:text="Calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCalcular"
+            ></Button>
+        <Button
+            android:text="Salir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSalir"
+            ></Button>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
